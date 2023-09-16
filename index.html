@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Todo List on pure JavaScript</title>
+    <link rel="stylesheet" href="css/simple-todo-list.css" />
+  </head>
+  <body>
+    <div class="todo">
+      <form class="todo__input">
+        <input class="todo__text" type="text" />
+        <button class="todo__add"></button>
+      </form>
+      <select class="todo__options">
+        <option value="all">Все</option>
+        <option value="active">Активные</option>
+        <option value="completed">Завершённые</option>
+      </select>
+      <ul class="todo__items"></ul>
+    </div>
+    <script defer src="js/script.js"></script>
+  </body>
+</html>
